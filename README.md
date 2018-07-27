@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## About this Project
+
+Screens:
+Registration
+Login
+Study Links Dashboard
+New Study Link
+Edit Study Link
+
+Objects:
+Users
+             ID(PK), First Name, Last Name, Email Id
+Study Link
+             ID(PK), Name, URL,  Category, Sub Category, User Id(FK)
+
+
+Front End: Angular UI
+Back End: Spring Boot, JAX-RS(CXF), Mongo DB
